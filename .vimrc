@@ -1,3 +1,7 @@
+"set t_ua7=
+set ambw=double
+
+
 syntax on
 colorscheme molokai
 hi Comment ctermfg=yellow
