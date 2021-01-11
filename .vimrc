@@ -11,6 +11,8 @@ set number
 
 set tabstop=4
 
+set ruler
+
 " 改行時に前の行のインデントを継承する
 set autoindent
 
