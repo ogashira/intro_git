@@ -1,10 +1,28 @@
+" set nocompatible
+" filetype off
+" 
+" set rtp+=~/.vim/bundle/Vundle.vim
+" 
+" call vundle#begin()
+" 
+" 
+" call vundle#end()
+" 
+" filetype plugin indent on
+" pluginを入れた場合は、beginとendの間に記入する
+
+
+
+" indentLine のプラグイン2021/4/5
+set list lcs=tab:\|\ 
+
+
 "set t_ua7=
 set ambw=double
 
 
 syntax on
 colorscheme molokai
-hi Comment ctermfg=yellow
 set t_co=256
 
 set number
@@ -32,6 +50,7 @@ set softtabstop=4
 set list
 set listchars=tab:>>-,trail:-
 
+set cursorline  "現在の行をハイライト
 
 let g:vim_markdown_folding_disabled = 1
 au BufRead,BufNewFile *.md set filetype=markdown
@@ -45,3 +64,4 @@ augroup END
 
 
 
+hi Comment ctermfg=Lightyellow
